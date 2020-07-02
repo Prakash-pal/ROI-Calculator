@@ -1,0 +1,357 @@
+
+.roi-calculator{
+  margin: 20px;
+}
+.roi-calculator .intro {
+  display: inline;
+  cursor: pointer;
+}
+.roi-calculator .intro.tab2 {
+  display: inline;
+  margin-left: 12px;
+}
+.roi-calculator .intro.tab2 span {
+  background: #cccccc;
+
+}
+.roi-calculator .intro span {
+  background: #1673b8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 3px;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.roi-clc-contaner{
+  border: 2px solid #cccccc;
+  border-radius: 0px 10px 10px 10px;
+  margin-top: -2px;
+}
+.roi-calculator .intro_heading{
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+.roi-calculator .intro_heading span {
+  background: #1673b8;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: block;
+}
+.roi-calculator .heading{
+  
+}
+.roi-calculator .heading p {
+  color: #ffffff;
+  padding: 2px 5px;
+  font-size: 16px;
+  background: #1673b8;
+}
+.roi-calculator .left_align{
+  width: 75%;
+  float: left;
+}
+.roi-calculator .right_align{
+  width: 25%;
+  float: left;
+}
+
+.roi-calculator .output_container .left_align{
+  width: 55%;
+  float: left;
+}
+.roi-calculator .output_container .right_align{
+  width: 18%;
+  float: left;
+}
+.roi-calculator .output_container .right_align_business_model{
+  width: 40%;
+  float: left;
+}
+.roi-calculator .right_align_end{
+  width: 27%;
+  float: right;
+  text-align: center;
+}
+
+.roi-calculator .heading_title_left{
+}
+.roi-calculator .heading_title_right{
+  border-left: 2px solid #ffffff;
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.roi-calculator .output_container .title{
+  padding: 5px 4px;
+}
+.roi-calculator .input_container .title .left_align{
+  /* border-bottom: 1px dashed #31c4f2; */
+}
+.roi-total-revenue-container{
+  background: #1b5c8d;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 3px 1px;
+}
+.title-top{
+  margin-top: 4px;
+}
+.roi-calculator .input_container p.title_right{
+  font-size: 14px;
+
+}
+.roi-calculator .title_right{
+  text-align: right;
+
+}
+.roi-calculator .title_right input{
+  border: transparent;
+    text-align: right;
+  
+}
+
+.roi-new-patient-consults .title, .check-clean-apointment .title{
+  padding: 0px 4px;
+}
+.roi-new-patient-consults, .check-clean-apointment{
+  padding-bottom: 4px;
+}
+.roi-body-top-left, .roi-body-bottom-left{
+  float: left;
+  width: 50%;
+  
+}
+.weeksForYear{
+  width: 20%;
+  
+}
+.weeksForYear_span{
+  -webkit-box-shadow: -2px 8px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 8px 9px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 8px 9px 0px rgba(0,0,0,0.75);
+}
+.weeksForYear_span input{
+  text-align: center;
+}
+.roi-body-top-left .input_container, .roi-body-bottom-left .input_container  {
+  margin: 0 5px;
+  border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding-bottom: 3px;
+}
+.roi-body-top-right .output_container{
+  margin: 0 5px;
+}
+.roi-body-top-right, .roi-body-bottom-right{
+  float: left;
+  width: 50%;
+}
+.roi-calculator .title p {
+  color: black;
+  padding: 2px;
+  font-size: 14px;
+}
+.roi-calculator .roi-total-revenue-container .title p{
+  color: white  ;
+
+}
+.roi-calculator .title p .title_right_span{
+  border: 1px solid #cccccc;
+  display: block;
+  border-radius: 2px;
+  margin-left: 4px;
+  padding-right: 24%;
+  background-color: white;
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.roi-calculator .title p span.border_total, .business_model_h  span.border_total{
+  /* display: block;
+  background:#E3F2FD; */
+}
+.roi-calculator .heading.roi{
+  border-bottom: 1px dashed #31c4f2;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+*:focus {
+  outline: none;
+}
+.percentage{
+  width: 65%;
+}
+.dollor{
+  width: 25%;
+    text-align: center !important;
+}
+.roi-calculator .heading-margin .left_align p, .roi-calculator .heading-margin .right_align p {
+  margin-top: 30px;
+    background: #1673b8;
+}
+.roi-calculator .heading p.empty_value{
+color: transparent  ;
+}
+.roi_button{
+  background: #31c4f2;
+  color: white;
+  margin: 18px 0;
+  align-content: end;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  float: right;
+}
+.roi_button:focus {
+  outline: none;
+  border: none;
+}
+.output_container{
+}
+p.heading_title_right.business_model_h{
+  text-align: center !important;
+    color: black;
+    font-size: 20px;
+}
+
+.roi p.heading_title_right.business_model_h{
+    font-size: 21px;
+}
+.roi p.heading_title_left{
+  color: black;
+}
+.roi_hint_c{
+  
+}
+.roi_hint{
+  color: white;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-left: 5px;
+    
+}
+.roi-body-bottom{
+  margin: 20px 0px 6px 0;
+}
+.collapse_btn{
+  margin: 19px 10px;
+  cursor: pointer;
+  display: none;
+  height: 25px;
+}
+
+.roi-calculator .output_container .right_align p{
+  text-align: right;
+  /* border: 1px solid #cccccc; */
+  background: white;
+  color: black;
+  border-radius: 3px;
+  -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.input_num_desc{
+  width: 90%;
+}
+.roi_bold {
+  font-weight: bold;
+}
+.roi-calculator p.heading_title_right.business_model_h.roi-total-per{
+  text-align: end !important;
+}
+.gray-color{
+  color: #cccccc;
+}
+.black-color{
+  color: #000000;
+}
+.button_cont{
+  display: inline;
+  float: right;
+}
+.roi-calculator .input_container{
+      
+}
+
+.roi-calculator .output_container_result{
+
+}
+.logo{
+  float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.anual_profit_container{
+  float: left;
+  width: 49%;
+  height: 180px;
+  background: #1b5c8d;
+  border-radius: 3px;
+  margin-right: 1%;
+}
+.roi_container{
+  float: left;
+  width: 49%;
+  height: 180px;
+  background: #1b5c8d;
+  border-radius: 3px;
+  margin-left: 1%;
+}
+.anual_profit_container .title{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 26px;
+  padding-top: 14px;
+}
+.anual_profit_container .sub_title{
+  text-align: center;
+  padding-top: 3px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.roi_container .title{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.roi_container .sub_title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.roi-body-bottom-right-con{
+  margin: 0 5px;
+}
+.roi-body-container{
+  padding: 7px 6px;
+}
+.roi-note{
+  text-align: end;
+    font-size: 14px;
+    font-style: italic;s
+}
